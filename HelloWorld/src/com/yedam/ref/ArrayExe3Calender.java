@@ -49,16 +49,19 @@ public class ArrayExe3Calender {
 			System.out.print(" " + day);
 		}
 		System.out.println(); // 줄바꿈
-		int month = 12;
+		int month = 3;
 		int space = getFirstDay(month); // 1일의 위치값.
 		int lastDate = getLastDate(month); // 마지막날. 공백 갯수만큼 빈칸.
 		for(int i=0; i<space; i++) {
 			System.out.print("    ");
-		}
+			}
 		
 		// 날짜 출력. "1" -> 1 : integer.parseInt()
 		for(int d=1; d <= lastDate; d++) {
-			if(String.valueOf(d).length() == 1) {   //  정수타입을 문자열로 d가 1일경우 렝스가 1
+			if(month == 3 && d == 21) {
+				System.out.print("  시험");
+			}
+			else if(String.valueOf(d).length() == 1) {   //  정수타입을 문자열로 d가 1일경우 렝스가 1
 				System.out.print("   " + d);
 			} else if(String.valueOf(d).length() == 2) {
 				System.out.print("  " + d);
