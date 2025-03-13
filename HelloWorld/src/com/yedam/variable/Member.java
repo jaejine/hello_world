@@ -38,4 +38,7 @@ public class Member { // public (다른 클래스에서 접근가능) <=> privat
 		}
 		this.score = score;
 	}
+	public void setName(String name) {
+		this.name = name;
+	}
 }

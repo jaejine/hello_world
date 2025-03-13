@@ -27,8 +27,6 @@ public class VarExe7 {
 				System.out.print("점수를 입력하세요 => ");
 				int score = Integer.parseInt(scn.nextLine());
 				Member member = new Member(); // 인스턴스 생성
-//				member.name = name; // 프라이빗 으로 잠김
-//				member.score = score; // 프라이빗 으로 잠김
 				member.setMember(name,score);
 				// 빈 공간에 값을 할당.
 				for(int i=0; i<storage.length; i++) {
