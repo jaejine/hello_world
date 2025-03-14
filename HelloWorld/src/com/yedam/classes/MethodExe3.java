@@ -25,12 +25,21 @@ public class MethodExe3 {
 		}
 	}
 	
-	void prinSter(int cnt, String str) {
-		String star = " ";
-		for(int i=1; i<=cnt; i++) {
-			for(int j=1; j<=; j++)
-		}
-	}
-	
+//	// 카드번호 보여주기.
+//	void printCard() {
+//		// 배열선언
+//		int[] intAry = new int[16];
+//		// 1~16 까지 임의수 할당.
+//		for (int i = 0; i < intAry.length;) {
+//			int temp = (int) (Math.random()*16)+1;
+//			// 이전에 생성된 값인지 체크
+//			boolean dup = false;
+//			for (int j = 0; j < i; j++) {
+//				if()
+//			}
+//		}
+//	}
+//	
+	// 출력.
 	
 }

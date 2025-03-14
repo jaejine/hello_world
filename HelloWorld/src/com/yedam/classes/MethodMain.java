@@ -1,12 +1,37 @@
 package com.yedam.classes;
 
+import java.util.Scanner;
+
 public class MethodMain {
 	
 //	public static void main(String[] args) {
 		
 		public static void main(String[] args) {
-			MethodExe3 m3 = new MethodExe3();
-			m3.printStar(5, "★");			
+			officeApp();
+			
+		} // end of main.
+		
+		static void officeApp() {
+			
+			// 목록,추가,수정,삭제.....
+			MethodExe2 m2 = new MethodExe2(); // 기능정의.
+			
+			// 사용자 입력 받아서 1.목록, 2.추가, 3.수정, 4.삭제 9.종료 구현하기.
+			// 입력메세지 정의 구현.
+			Scanner scn = new Scanner(System.in);
+			int syssta = scanner.nextInt();
+			
+		}
+		
+		void method4() {
+//			MethodExe4 m4 = new MethodExe4();
+			MethodExe4.main();
+		}
+		
+		
+		void method3() {
+//			MethodExe4 m4 = new MethodExe4();
+			MethodExe4.main();	
 		}
 		
 //		// 상품코드: M001, 상품명: 만년필, 가격: 10000
