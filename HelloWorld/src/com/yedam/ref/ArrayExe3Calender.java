@@ -58,7 +58,7 @@ public class ArrayExe3Calender {
 		
 		// 날짜 출력. "1" -> 1 : integer.parseInt()
 		for(int d=1; d <= lastDate; d++) {
-			if(d == 21) {
+			if(month == 3 && d == 21) {
 				System.out.print("  시험");
 			}
 			else if(String.valueOf(d).length() == 1) {   //  정수타입을 문자열로 d가 1일경우 렝스가 1
