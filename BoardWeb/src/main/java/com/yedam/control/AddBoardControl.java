@@ -16,6 +16,7 @@ public class AddBoardControl implements Control {
 			req.getRequestDispatcher("/WEB-INF/views/addform.jsp").forward(req, resp);
 		} else if (req.getMethod().equals("POST")) {
 			//등록
+			
 			resp.sendRedirect("boardList.do"); // 요청 재지정.	
 		}
 	}
