@@ -6,17 +6,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/*
- * Control 인터페이스
- * AddBoardControl   exec
- * BoardControl      exec
- * BoardListControl  exec
- * 
- * HTTP 통신
- * Request, Response
- */
-
 public interface Control {
 	public void exec(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException;
 }
-
